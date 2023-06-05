@@ -17,7 +17,7 @@ public class SacsController {
 	public String homePage() {
 		return "index";
 	}
-	@GetMapping("/register")
+	@GetMapping("/register1")
 	public String showRegistrationForm(Model model) {
 	    model.addAttribute("user", new User());
 	     
